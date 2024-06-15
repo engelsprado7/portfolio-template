@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        input {
+            margin: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div>
+        <label for="value1">Ingrese el valor</label>
+        <input type="number" name="value1" id="value1">
+        <label for="value2">Ingrese el siguiente valor</label>
+        <input type="number" name="value2" id="value2">
+
+        <button id="addButton"> Sumar</button>
+    </div>
+    <div>
+        El resultado es: <span id="result"></span>
+    </div>
+    
+    <script src="javascript/operations.js"></script>
+
+</body>
+</html>
